@@ -1,0 +1,1 @@
+Sistem pakar ini menggunakan PHP sepenuhnya dan perlu localhost seperti XAMPP dalam penggunaanya sistem pakar ini menggunakan metode Forward Chaining dalam pengembanngannya jadi gampang digunakan dalam pengembangan sistem pakar serupa menggunakan metode sederhana juga
