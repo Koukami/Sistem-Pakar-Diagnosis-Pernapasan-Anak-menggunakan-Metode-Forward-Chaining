@@ -1,0 +1,98 @@
+/* Gaya kustom untuk dasbor admin - Sidebar (kiri) */
+
+/* Kontainer Sidebar */
+.kiri {
+    background-color: #ffffff; /* Ubah warna latar belakang sesuai keinginan Anda */
+    color: #4e73df; /* Ubah warna teks sesuai keinginan Anda */
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0; /* Setel bottom ke 0 untuk memastikan sidebar membentang sampai ke bagian bawah viewport */
+    overflow-y: auto; /* Aktifkan scrolling untuk konten sidebar */
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Memusatkan secara vertikal */
+    align-items: left; /* Memusatkan secara horizontal */
+}
+
+/* Logo */
+.kiri .navbar-brand {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.kiri .navbar-brand img {
+    width: 140px; /* Ubah lebar logo menjadi 50px */
+    height: 120px; /* Ubah tinggi logo menjadi 50px */
+}
+
+/* Judul Sidebar */
+.sidebar-heading {
+    padding: 5px;
+}
+
+.sidebar-heading h5 {
+    margin: 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+/* Tautan Navigasi Sidebar */
+.isi {
+    padding: 10px;
+}
+
+.isi .nav-link {
+    color: #1a1717; /* Ubah warna teks tautan */
+    display: block;
+    padding: 8px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.isi .nav-link:hover {
+    background-color: #ffffff; /* Ubah warna latar belakang tautan saat dihover */
+    color: #4e73df; /* Ubah warna teks tautan saat dihover */
+}
+
+/* Tautan Navigasi Aktif */
+.isi .nav-link.active {
+    background-color: #ffffff;
+    color: #4e73df;
+}
+
+/* Bagian Kanan (Konten) */
+.kanan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Memusatkan secara vertikal */
+    align-items: center; /* Memusatkan secara horizontal */
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* Kolom Kiri */
+.kanan .col-md-9 {
+    flex: 2; /* Bagian kiri akan memiliki lebar dua kali lipat dari bagian kanan */
+}
+
+/* Kolom Kanan */
+.kanan .col-md-3 {
+    flex: 1;
+    margin-left: 20px; /* Memberi jarak antara kedua kolom */
+}
+
+/* Footer */
+footer {
+    background-color: #ffffff;
+    color: #757575;
+    text-align: center;
+    padding: 50px;
+    font-size: 0.8rem;
+    position: center;
+    bottom: 0;
+    width: 100%;
+    clear: both; /* Membersihkan float untuk footer */
+}
